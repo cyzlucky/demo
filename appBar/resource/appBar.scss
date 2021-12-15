@@ -1,0 +1,101 @@
+.nemp-themeLight-Menu-appBar{
+    background-color: #ffffff !important;
+    color: #404040 !important;
+    box-shadow: 0px 2px 4px -1px rgba(#1b1b59, 0.17) !important;
+}
+.nemp-themeDark-Menu-appBar{
+    background-color: #043362 !important;
+}
+
+.nemp-Menu-toolBar {
+    min-height: 55px !important;
+}
+
+.nemp-title {
+    display: flex;
+    align-items: center;
+}
+
+.nemp-title-font {
+    white-space: nowrap;
+    font-weight: 600;
+    user-select: none;
+}
+
+.nemp-appBar-button {
+    width: 24px;
+    height: 24px;
+}
+
+.nemp-min-appBar-buttom {
+    width: 21px;
+    height: 21px;
+    margin-bottom: 3px;
+}
+
+.nemp-appBar-buttom-logSvg {
+    width: 21.5px;
+    height: 21.5px;
+    margin-bottom: 3px;
+}
+
+.nemp-appBar-buttom-alertSvg {
+    margin-top: 2px;
+}
+
+.nemp-appBar-buttom-settingSvg {
+    // margin-bottom: 1px;
+}
+
+.nemp-appBar-buttom-popover {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;    
+}
+
+.nemp-appBar-buttom-leftPopover {
+    margin-bottom: 7px;    
+}
+
+/*去除a标签下划线*/
+a {
+	text-decoration: none;
+}
+/*去除未被访问的a标签的下划线*/
+a:link {
+	text-decoration: none;
+}
+/*去除已经被访问过的a标签的下划线*/
+a:visited {
+	text-decoration: none;
+}
+/*去除鼠标悬停时的a标签的下划线*/
+a:hover {
+	text-decoration: none;
+}
+/*去除正在点击的a标签的下划线（鼠标按下，尚未松开）*/
+a:active {
+	text-decoration: none;
+}
+/*去除获得焦点的a标签的下划线（被鼠标点击过）*/
+a:focus {
+	text-decoration: none;
+}
+
+.themeLight-menu-a-tag {    
+    color: #404040;
+}
+
+.themeDark-menu-a-tag {    
+    color: #ffffff;
+}
+
+.centerSnackbar {
+    top: 128px !important;
+}
+
+.nemp-appBar-buttom-rightLanguageSvg {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 4px;
+}
